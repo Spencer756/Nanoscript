@@ -18,42 +18,6 @@ extern "C" __declspec(dllexport) int macroMain()
 	//===========================================================================================================================
 	//                                  Ramp with pulse mode to extract the PE loop of ferroelectric material
 	//=============================================================by Zhiyong====================================================
-	//@2017-4-19
-	// use the method of cKPFM to do IV measurement;
-
-	//@2016-5-8
-	//the program is working
-	
-	//@2016-5-2
-	//retesting
-	//working
-
-	//@2015-4-7
-	//problem found..
-	//the sample bias does not give any signal..
-
-	//@2015-9-18
-	//going to change it for matlab communication real time display in matlab
-
-	//@2015-8-17
-	//set output1 to be amplitude
-	//output 2 to be phase
-
-	//@2015-7-15
-	//have amplitude and phase together using Output
-
-	//@2015-7-14
-	//with a beep after finishing the ramping
-
-	//@2015-7-11
-	//voltage applied to lsBias
-	//Unit is mV
-	//sweep +/-10V with 0.5V step and 1s duration and 0.5 wait is a good testing
-	//only one channel can be read during one ramp either amplitude or phase.
-	//suggest by the "signal access module"
-
-	//@2015-7-10
-	//initial version: have basic function.
 	//============================================================================================================================
 	// Parameters with default values
 	float V_max = 8.0f; 		// the maximum voltage
